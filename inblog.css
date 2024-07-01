@@ -1,0 +1,288 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+body{
+	background-color:white ;
+	font-family: 'Belanosima', sans-serif;
+}
+.super_container{
+	background-image: url(images/boat1.jpg);
+    background-color: hsla(0,0%,0%,0.5);
+	background-blend-mode:overlay ;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center; 
+    width: 100%;
+    height: 450px; 
+    margin: 0 auto; 
+	
+	
+}
+
+.ab{
+    z-index: 1;
+position: absolute;
+	font-size: 46px;
+		margin-left: 42%;
+		margin-bottom: 3%;
+		text-align: center;
+	color:#fff;
+	font-weight: 600;
+	margin-top: 180px;
+	
+	}
+
+.bar{
+  padding-top: 20px;
+  
+    text-align: center;
+    height: 55px;
+    width: auto; 
+    background-color: #1089ff;}
+   
+	.bar4:hover{
+
+		background-color: white;
+	  }
+	
+	a:hover{
+
+        color:#FFB531 ;
+    }
+
+  
+
+.bar2{
+
+   margin-left: 80px;
+    text-decoration: none;
+    padding-bottom: 2px;
+    font-weight: 700;font-size: 25px;color: white;
+}
+
+    .bar3{
+       
+        margin-left: 220px;
+        text-decoration: none;
+        padding-bottom: 2px;
+        font-weight: 700;font-size: 25px;color: white;
+   }
+
+   .bar5{
+	border-bottom: 3px solid #FFFFFF; 
+	margin-left: 80px;
+	text-decoration: none;
+	padding-bottom: 2px;
+	font-weight: 700;font-size: 25px;color: white;
+}
+
+
+   .bar4{
+    float: right;
+    margin-right:120px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    /* border: 2px solid #FFB531 ; */
+    background-color: #FFB531;
+    padding: 7px 15px 6px 15px;
+    border-radius: 33px;
+    font-weight: 600;font-size: 19px;color: white;
+   }
+
+
+.container{
+	background-color: #1088ffae;
+	
+	display: flex;
+	height:140px;
+}
+.logo_container{
+	padding-top:25px;
+	padding-left: 110px;
+	font-size: 40px;
+	padding-right: 400px;
+  
+}
+.logo_container img{
+	padding-top:16px;
+	padding-right: 10px;
+}
+.logo_container a{
+	color:white;
+}
+.main_nav_list{
+	padding-top:60px ;
+	justify-content: right;
+	padding-left: 100px;
+	
+}
+.main_nav_item{
+	padding:15px;
+	font-size: 20px;
+}
+
+/* 
+.search_tab{
+	display:flex;
+} */
+.main_nav_list li{
+	
+	display: inline;
+	
+}
+.main_nav_item a{
+	color:white;
+	
+}
+.home_content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home_title{
+	font-size: 60px;
+	padding-top:100px ;
+	color:white;
+	font-weight: bold;
+	padding-bottom: 70px;
+
+}
+.search_tabs_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/* 	padding-left: 500px;
+	padding-right:500px ; */
+	
+}
+.search_tabs{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height:72px;
+	border-top-left-radius: 50px; 
+    border-top-right-radius: 50px;
+	display:flex;
+	background-color: white;
+	width:60%;
+	font-size: 20px;
+}
+.search_panel{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_item1{
+	border: none;
+
+	
+
+}
+.offers-grid{
+	padding-top: 20px;
+	padding-left: 20px;
+
+
+}
+
+
+a{
+	text-decoration: none;
+}
+/* a:hover{
+	color: #FF6347;
+} */
+
+
+
+		.offers-section {
+			padding: 50px 0;
+			text-align: center;
+		}
+		
+	
+		
+		.offer-container {
+			display: flex;
+			justify-content: center;
+			gap: 60px; /* Reduced gap */
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		
+		.offer {
+			width: 20%; /* Adjusted width */
+			height: 500px;
+			background-color: #f9f9f9;
+			border-radius: 12px;
+			overflow: hidden;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+		}
+		
+		.offer img {
+			width: 100%;
+			height: 50%;
+		}
+		
+		.offer-details {
+			padding: 25px;
+			text-align: center; /* Center-align the text */
+		}
+		
+		.offer-title {
+			font-size: 20px;
+			margin-bottom: 10px;
+			color: #333;
+			white-space: normal; /* Allow wrapping of text */
+		}
+		
+		.offer-description {
+			font-size: 16px;
+			color: #666;
+			margin-bottom: 15px;
+		}
+		
+		
+		.offer-button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #1089ff;
+			margin-top: 40px;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background-color 0.3s;
+		}
+		
+		.offer-button:hover {
+			color:#FFB531 ;
+			background-color: white;
+		}
+		
+		.kayaking-offers {
+			background-color: white;
+		}
+		
+		.kayaking-offers .offers-heading {
+			color: #444;
+		}
+		
+		.kayaking-offers .offer-button {
+			background-color: #FFB531;
+		}
+		
+		.kayaking-offers .offer-button:hover {
+			color:#FFB531 ;
+			background-color: white;
+		}
+		
+
+
+
+
+
+
